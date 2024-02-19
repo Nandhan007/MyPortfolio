@@ -544,6 +544,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.hanabi{
+    background: url('../projects/hanabi.png');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .project-info{
     width: 280px;
     height: 240px;
@@ -722,4 +729,17 @@ html{
 }
 .sidelinks{
     display: none;
+}
+
+.project-info a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.project-info a:hover{
+    color: var(--hover-color);
 }
