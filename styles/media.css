@@ -66,6 +66,10 @@
         color: white;
         font-size: 18px;
         font-weight: bold;
+        cursor: pointer;;
+    }
+    .nav-toggler{
+        cursor: pointer;
     }
     .sideheader{
         width: 100%;
@@ -301,6 +305,18 @@
     .main-content,.aboutus,.contact-form{
         width: 270px;
     }
+    .main-content{
+        border: 2px solid red;
+    }
+    .content{
+        border: 2px solid red;
+    }
+    .content h1{
+        font-size: 18px;
+    }
+    .role{
+        font-size: 15px;
+    }
     input,textarea{
         font-size: 10px;
     }
@@ -321,11 +337,11 @@
         flex-direction: column;
     }
     .personal-row{
-    flex: 0 0 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 3px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
     }
     .foot{
         font-size: 10px;
@@ -346,14 +362,6 @@
         text-indent: 5px;
         text-align: justify;
     }
-}
-@media (max-width: 360px){
-    .title,.project-title{
-        margin: 0px auto;
-    }
-}
-
-@media (max-width: 400px){
     .objective{
         flex-direction: column-reverse;
     }
@@ -370,5 +378,10 @@
     }
     .contact-details,.contact-info{
         width: 100%;   
+    }
+}
+@media (max-width: 360px){
+    .title,.project-title{
+        margin: 0px auto;
     }
 }
