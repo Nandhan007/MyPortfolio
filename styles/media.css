@@ -353,4 +353,22 @@
     }
 }
 
-/* sidebar */
+@media (max-width: 400px){
+    .objective{
+        flex-direction: column-reverse;
+    }
+    .objective-container{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .objective img{
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+    .btncv{
+        width: 100%;
+    }
+    .contact-details,.contact-info{
+        width: 100%;   
+    }
+}

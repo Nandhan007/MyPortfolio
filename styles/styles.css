@@ -544,9 +544,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.project-info a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+.project-info a:hover{
+    color: var(--hover-color);
+    opacity: 0.95;
+}
 .hanabi{
     background: url('../projects/hanabi.png');
-    background-color: black;
+    background-color: rgb(34, 33, 33);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -558,7 +574,8 @@
     margin: 20px;
     border-radius: 15px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out;
+    position: relative;
 }
 .project-info:hover{
     transform: scale(1.10);
@@ -729,17 +746,4 @@ html{
 }
 .sidelinks{
     display: none;
-}
-
-.project-info a{
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-}
-.project-info a:hover{
-    color: var(--hover-color);
 }
