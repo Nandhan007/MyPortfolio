@@ -567,10 +567,48 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.e-commerce{
+    background: url('../projects/amazon-image.png');
+    background-color: rgb(34, 33, 33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pranav2k23{
+    background: url('../projects/pranav2k23-image.png');
+    background-color: rgb(34, 33, 33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rgadesign{
+    background: url('../projects/rgadesign-image.png');
+    background-color: rgb(34, 33, 33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.digitallarc{
+    background: url('../projects/digitallarc-image.png');
+    background-color: rgb(34, 33, 33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 280px 240px;
+}
+.portfolio{
+    background: url('../projects/portfolio-image.png');
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid black;
+}
+.portfolio a{
+    color: black;
+}
 .project-info{
     width: 280px;
     height: 240px;
-    border: 2px solid violet;
     margin: 20px;
     border-radius: 15px;
     cursor: pointer;

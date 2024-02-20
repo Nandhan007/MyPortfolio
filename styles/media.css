@@ -305,17 +305,11 @@
     .main-content,.aboutus,.contact-form{
         width: 270px;
     }
-    .main-content{
-        border: 2px solid red;
-    }
-    .content{
-        border: 2px solid red;
-    }
     .content h1{
-        font-size: 18px;
+        font-size: 19px;
     }
-    .role{
-        font-size: 15px;
+    .description{
+        width: 100%;
     }
     input,textarea{
         font-size: 10px;
