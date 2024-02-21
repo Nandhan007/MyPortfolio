@@ -510,6 +510,13 @@
 }
 /* Skills section end */
 /* project section start */
+.projects-overlay{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--skin-color);
+    color: white;
+    padding: 20px 0px;
+}
 .projects{
     width: 1100px;
     height: fit-content;
@@ -524,7 +531,7 @@
     width: 90px;
     height: 3px;
     display: inline-block;
-    background-color: var(--skin-color);
+    background-color: var(--hover-color);
     position: absolute;
     top:47px;
     left:0;
@@ -533,7 +540,7 @@
     content: '';
     width: 55px;
     height: 3px;
-    background-color: var(--skin-color);
+    background-color: var(--hover-color);
     position: absolute;
     top:5px;
     left:0;
