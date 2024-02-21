@@ -22,3 +22,16 @@ document.addEventListener('DOMContentLoaded',()=>{
         overlay.classList.remove('open');
     })
     })
+
+    function sendEmail(){
+        const names = document.querySelector('.names').value;
+        const emails = document.querySelector('.email').value;
+        const messages = document.querySelector('.message').value;
+        let parms = {
+            name: names,
+            email: emails,
+            message: messages
+        };
+        console.log(parms.name+" "+parms.email+" "+parms.message);
+        emailjs.send("service_jp525p6","template_3bfa2ft",parms).then(alert("email send successfully"));
+    }

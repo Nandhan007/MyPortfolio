@@ -243,13 +243,13 @@
                 <span></span>
             </div>
             <div class="contact-details">
-                <form action="#">
+                <form>
                     <div class="contact-info">
-                        <input type="text" placeholder="Enter your name">
-                        <input type="email" placeholder="Enter your email">
-                        <textarea id="queries" cols="30" rows="10" class="Any-queries" placeholder="Message"></textarea>
+                        <input type="text" placeholder="Enter your name" class="names">
+                        <input type="email" placeholder="Enter your email" class="email">
+                        <textarea id="queries" cols="30" rows="10" class="message" placeholder="Message"></textarea>
                         <div class="contactbtn">
-                            <button type="submit" class="btn-contact">Let's Talk</button>
+                            <button type="submit" class="btn-contact" onclick="sendEmail()">Let's Talk</button>
                         </div>
                     </div>
                 </form>
@@ -312,6 +312,16 @@
             </div>
             <div class="navoverlay"></div>
         </div>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "D_DSrYMjPdVDWOYWN",
+                });
+            })();
+        </script>
         <script src="scripts/script.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
