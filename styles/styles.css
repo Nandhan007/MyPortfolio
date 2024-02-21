@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
 @font-face {
-    font-family: 'QaskinBlack';
-    src: url('../fonts/QaskinBlack_PersonalUse.ttf');
+    font-family: 'MonsieurLaDoulaise';
+    src: url('../fonts/MonsieurLaDoulaise-Regular.ttf');
 }
 *{
     padding: 0;
@@ -42,7 +42,7 @@
 .name{
     font-size: 30px;
     color: white; 
-    font-family: 'QaskinBlack';  
+    font-family: 'MonsieurLaDoulaise';  
 }
 .links{
     display: flex;
