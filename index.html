@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
         <!-- Navbar start -->
@@ -29,18 +30,20 @@
         </div>
         <!-- Navbar End -->
         <!-- Main Content start-->
-        <div class="main-content" id="Home">
+        <div class="main-content" id="Home" data-aos="fade-right">
             <div class="landingcontent">
                 <div class="content">
                     <h1 class="name2">I'm <span>Nithiyanantham</span></h1>
                     <h2 class="role">FrontEnd Developer</h2>
                     <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id facere velit iure adipisci dolor, blanditiis cumque illum libero veniam quibusdam!</p>
                     <div class="socialmedia">
-                        <i class="fa-brands fa-linkedin-in fa-2x linkedin"></i>
-                        <i class="fa-brands fa-github fa-2x github"></i>
+                        <a href="https://www.linkedin.com/in/nithiya-nantham-r-8a224120b/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x linkedin"></i></a>
+                        <a href="https://github.com/Nandhan007/" target="_blank"><i class="fa-brands fa-github fa-2x github"></i></a>
                     </div>
                     <div class="aboutme">
-                        <button class="btn"><i class="fa-solid fa-arrow-down"></i> More About Me</button>
+                        <a href="#AboutUs">
+                            <button class="btn"><i class="fa-solid fa-arrow-down"></i> More About Me</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -263,22 +266,30 @@
             </div>
         </footer>
         <div class="stickybtns">
-            <div class="stickybtn">
-                <h4>LinkedIn</h4>
-                <i class="fa-brands fa-linkedin-in fa-2x"></i>
-            </div>
-            <div class="stickybtn">
-                <h4>Instagram</h4>
-                <i class="fa-brands fa-instagram fa-2x"></i>
-            </div>
-            <div class="stickybtn">
-                <h4>Mail</h4>
-                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="30" width="30" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-            </div>
-            <div class="stickybtn">
-                <h4>Whatsapp</h4>
-                <i class="fa-brands fa-whatsapp fa-2x"></i>
-            </div>
+            <a href="https://www.linkedin.com/in/nithiya-nantham-r-8a224120b/" target="_blank">
+                <div class="stickybtn">
+                    <h4>LinkedIn</h4>
+                    <i class="fa-brands fa-linkedin-in fa-2x"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <div class="stickybtn">
+                    <h4>Instagram</h4>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </div>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&to=r.nandhanraghu123@gmail.com" target="_blank">
+                <div class="stickybtn">
+                    <h4>Mail</h4>
+                    <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="30" width="30" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+916374559930" target="_blank">
+                <div class="stickybtn">
+                    <h4>Whatsapp</h4>
+                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                </div>
+            </a>
         </div>
         <div class="sidenav">
             <div class="sidelinks">
@@ -300,5 +311,9 @@
             <div class="navoverlay"></div>
         </div>
         <script src="scripts/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html

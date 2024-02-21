@@ -785,3 +785,6 @@ html{
 .sidelinks{
     display: none;
 }
+.stickybtns a{
+    text-decoration: none;
+}
